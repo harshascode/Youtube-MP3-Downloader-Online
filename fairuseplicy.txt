@@ -1,0 +1,40 @@
+Fair Use on [Your Website Name] - MP3 Downloader
+
+This Fair Use Policy governs the use of [Your Website Name]'s MP3 Downloader Tool (the "Tool") and downloading of MP3 files from various sources using the Tool. By using the Tool, you agree to the following terms and conditions:
+
+Responsibility for Rights and Permissions: You are solely responsible for ensuring that you have the necessary rights and permissions to download and use the MP3 files via the Tool. The Tool does not provide any warranties or assurances that the MP3 files you download are available for use or that they do not infringe on any intellectual property rights.
+
+Copyright and Intellectual Property: Any violations of copyright or other intellectual property rights resulting from your use of the Tool are your responsibility. [Your Website Name] and the Tool will not be held liable for any damages or losses arising from the unauthorized use of downloaded MP3 files.
+
+No Representations or Warranties: [Your Website Name] makes no representations or warranties of any kind, express or implied, as to how you operate the Tool or the content, materials, or products included in the downloaded MP3 files.
+
+Policy Updates: [Your Website Name] reserves the right to update or change this Fair Use Policy at any time, and your continued use of the Tool following any changes signifies your acceptance of those changes.
+
+Acceptance of Terms: If you do not agree to these terms and conditions, you must not use the Tool.
+
+By using the Tool, you confirm that you have read and understood this Fair Use Policy and that you agree to be bound by it.
+
+
+
+      <div className="bg-[#0085ff] rounded-lg p-5 mt-5 text-sm">
+        {/* <h2 className="font-bold my-3">Simple Steps to Acquire Online MP3 Files for Free</h2> */}
+        <p className="font-bold my-3">Step 1: Copy the Source Link</p>
+        <p>
+          Start by opening the source website, then copy the URL from the
+          address bar.
+        </p>
+
+        <p className="font-bold my-3 mt-6">
+          Step 2: Paste the Link in the Search Bar
+        </p>
+        <p>
+          Access our free MP3 grab tool in your browser, paste the URL into the
+          search bar, and await the results.
+        </p>
+
+        <p className="font-bold my-3 mt-6">Step 3: Download Your Favorite MP3</p>
+        <p>
+          Select your desired MP3 download settings and click the Download
+          button. Now, you can store the MP3 file on your computer.
+        </p>
+      </div>

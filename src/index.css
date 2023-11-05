@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Mogra&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  @apply box-border m-0 p-0;
+}
+
+/* ::selection {
+  color: red;
+  background: yellow;
+} */
+
+body {
+  @apply h-screen text-[white];
+  font-family: "JetBrains Mono", "Montserrat", sans-serif;
+  /* background-color: black; */
+  background: linear-gradient(45deg, #4158d0, #c850c0, #ffcc70);
+}
+
+.app {
+  @apply max-w-[900px] mx-auto my-0 px-4 py-0;
+}
+
+.logo {
+  @apply font-[bold] inline-block;
+  font-family: "JetBrains Mono", "Montserrat", sans-serif;
+  /* margin-top: 1rem; */
+}
+
+.content {
+  @apply flex flex-col items-center bg-white text-black font-bold rounded-2xl;
+}
+
+.content_title {
+  @apply font-bold text-[50px] text-center mb-2.5;
+}
+
+.content_description {
+  @apply font-normal text-xl opacity-90 text-center mb-4;
+}
+
+.form {
+  @apply flex flex-row items-center;
+}
+
+.form .form_input {
+  @apply max-w-[500px] min-w-[300px] h-[38px] indent-[10px] text-base mb-4 rounded-[3px] border-[none];
+  background: white;
+  outline: none;
+}
+
+.form .form_button {
+  @apply w-[100px] h-[30px] text-[white] cursor-pointer mb-4 rounded-[3px] border-[none];
+  background: #4158b0;
+  outline: none;
+}
+
+.download_btn {
+  @apply text-[white] inline-flex items-center py-3 px-4 mx-2 mt-6 text-sm font-medium rounded-lg bg-blue-700 border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    @apply mt-9;
+  }
+  .content_title {
+    @apply text-[35px];
+  }
+}

@@ -35,21 +35,21 @@ function App() {
         <nav className="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
           <a
             className="px-2 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="#"
+            href="/"
           >
             YT to MP3 Converter
           </a>
 
           <a
             className="px-2 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="#"
+            href="/"
           >
             Pricing
           </a>
 
           <a
             className="bg-[#0085FF] px-2 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="#"
+            href="/"
           >
             Login
           </a>
@@ -145,7 +145,7 @@ function App() {
               <ul className="flex flex-wrap items-center mb-6 sm:mb-0">
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
                   >
                     About
@@ -153,7 +153,7 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
                   >
                     Privacy Policy
@@ -169,7 +169,7 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="text-sm text-gray-500 hover:underline dark:text-gray-400"
                   >
                     DMCA
